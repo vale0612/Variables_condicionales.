@@ -1,0 +1,21 @@
+Inicio
+Leer edad
+Leer país (A, CS, C, G, S)
+Si país es A o CS o C o G o S entonces
+Si país es A y edad ≥ 16 entonces
+Mostrar "Usted cumple la edad mínima para votar en su país de origen el cual es Austria"
+Si no, si país es CS y edad ≥ 19 entonces
+Mostrar "Usted cumple la edad mínima para votar en su país de origen el cual es Corea del Sur"
+Si no, si país es C y edad ≥ 18 entonces
+Mostrar "Usted cumple la edad mínima para votar en su país de origen el cual es Colombia"
+Si no, si país es G y edad ≥ 17 entonces
+Mostrar "Usted cumple la edad mínima para votar en su país de origen el cual es Grecia"
+Si no, si país es S y edad ≥ 21 entonces
+Mostrar "Usted cumple la edad mínima para votar en su país de origen el cual es Singapur"
+Si no
+Mostrar "Su edad no cumple el estándar de su país"
+Fin Si
+Si no
+Mostrar "Su país no está en el listado"
+Fin Si
+Fin
