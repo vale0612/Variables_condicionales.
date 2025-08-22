@@ -1,0 +1,29 @@
+1. INICIO2.  PEDIR al usuario "Ingrese el primer número" → guardar en numero1
+3.  PEDIR al usuario "Ingrese el segundo número" → guardar en numero2
+4.  MOSTRAR el menú de opciones:Sumar
+        2. Restar
+        3. Multiplicar
+        4. Dividir
+        5. Salir
+5.  PEDIR al usuario "Ingrese la operación que desea realizar" → guardar en opcioncalculadora
+6.  SI opcioncalculadora == 1 ENTONCES
+        resultado = numero1 + numero2
+        MOSTRAR "El resultado de la suma es:", resultado
+7.  SINO SI opcioncalculadora == 2 ENTONCES
+        resultado = numero1 - numero2
+        MOSTRAR "El resultado de la resta es:", resultado
+8.  SINO SI opcioncalculadora == 3 ENTONCES
+        resultado = numero1 * numero2
+        MOSTRAR "El resultado de la multiplicación es:", resultado
+9.  SINO SI opcioncalculadora == 4 ENTONCES
+        SI numero2 == 0 ENTONCES
+            MOSTRAR "Error: no se puede dividir por 0"
+        SINO
+            resultado = numero1 / numero2
+            MOSTRAR "El resultado de la división es:", resultado
+        FIN SI
+10. SINO SI opcioncalculadora == 5 ENTONCES
+        MOSTRAR "Saliendo de la calculadora"
+11. SINO
+        MOSTRAR "Opción no válida, por favor intente de nuevo"
+12. FIN
